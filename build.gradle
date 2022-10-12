@@ -8,7 +8,7 @@ buildscript {
     dependencies {
         classpath("org.springframework.boot:spring-boot-gradle-plugin:${springBootVersion}")
         classpath "com.palantir.gradle.docker:gradle-docker:0.19.2"
-        classpath "org.jfrog.buildinfo:build-info-extractor-gradle:4.15.2"
+        classpath "org.jfrog.buildinfo:build-info-extractor-gradle:4.15.1"
 
     }
 }
